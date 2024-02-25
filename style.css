@@ -1,0 +1,19 @@
+.gameBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 600px;
+  background-color: #ff9f9f;
+}
+
+.tile {
+  background-color: grey;
+  border: #000000 2px solid;
+  border-radius: 20px;
+  width: 80px;
+  height: 120px;
+  margin: 20px;
+}
